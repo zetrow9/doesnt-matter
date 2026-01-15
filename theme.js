@@ -55,7 +55,7 @@ function changeSvgs(arr) {
     if (getTheme() === "Purple") {
       for (const img of document.querySelectorAll('img[src="https://misc.scdn.co/liked-songs/liked-songs-300.jpg"]')) {
         img.removeAttribute("srcset")
-        img.setAttribute("src", `https://github.com/Adrien5902/SpicetifyCat/blob/main/assets/${getTheme()}/liked_songs.png?raw=true`)
+        img.setAttribute("src", `https://github.com/zetrow9/doesnt-matter/tree/main/assets/${getTheme()}/liked_songs.png?raw=true`)
       }
     }
   }
@@ -78,7 +78,7 @@ changeSvgs([
 ])
 
 waitForElement([".Root__top-container"], ([el]) => {
-  el.style.backgroundImage = `url(https://github.com/Adrien5902/SpicetifyCat/blob/main/assets/${getTheme()}/background.png?raw=true)`;
+  el.style.backgroundImage = `url(https://github.com/zetrow9/doesnt-matter/tree/main/assets/${getTheme()}/background.png?raw=true)`;
 })
 
 /**
